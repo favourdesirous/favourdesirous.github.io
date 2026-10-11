@@ -3,20 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Crow Animate</title>
 <style>
   body { font: 16px/1.6 system-ui, sans-serif; max-width: 680px; margin: 48px auto; padding: 0 16px; color: #1d1f24; background: #fff; }
   h1 { margin-bottom: 4px; }
   .muted { color: #666; }
   a { color: #2a5bd7; }
+  .yt { display: flex; gap: 12px; align-items: center; padding: 14px 16px; border: 1px solid #e3e3e3; border-radius: 10px; background: #fafafa; }
+  .yt svg { flex: none; }
+  nav { margin-top: 28px; display: flex; gap: 18px; }
 </style>
 </head>
 <body>
 <h1>Crow Animate</h1>
 <p class="muted">A personal desktop tool for making short videos.</p>
 <p>Crow Animate is a desktop app its owner uses to edit gameplay recordings and voice-overs into short vertical videos for their own channels, including the Project Lucent and Lucent Sky community.</p>
-<p>When the owner approves a video in the app, it can upload that video to the owner's own YouTube channel through the YouTube Data API, scheduled to publish at a chosen time. It does not access anyone else's account or data.</p>
-<p><a href="privacy.html">Privacy policy</a></p>
-<p class="muted">Contact: favourdesirous@gmail.com</p>
+<p>When the owner approves a video in the app, it can upload that video to the owner's own YouTube channel, scheduled to publish at a chosen time. It does not access anyone else's account or data.</p>
+
+<div class="yt">
+  <svg width="40" height="28" viewBox="0 0 40 28" aria-hidden="true"><rect width="40" height="28" rx="7" fill="#FF0000"/><path d="M16 8.5v11l9.5-5.5z" fill="#fff"/></svg>
+  <div><b>Uses YouTube API Services.</b> By using Crow Animate you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>; see also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</div>
+</div>
+
+<nav>
+  <a href="privacy.html">Privacy policy</a>
+  <a href="terms.html">Terms of Service</a>
+</nav>
 </body>
 </html>
